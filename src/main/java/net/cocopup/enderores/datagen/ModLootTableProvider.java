@@ -26,6 +26,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
+
         addDrop(ModBlocks.END_COAL, oreDrops(ModBlocks.END_COAL, Items.COAL));
         addDrop(ModBlocks.END_IRON, oreDrops(ModBlocks.END_IRON, Items.RAW_IRON));
         addDrop(ModBlocks.END_GOLD, oreDrops(ModBlocks.END_GOLD, Items.RAW_GOLD));
