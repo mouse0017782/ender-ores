@@ -1,22 +1,26 @@
 {
+
 	"schemaVersion": 1,
 	"id": "ender-ores",
 	"version": "${version}",
 	"name": "Ender Ores",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds Ores to the end",
 	"authors": [
-		"Me!"
+		"_corruptedpuppy_"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/ender-ores/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.cocopup.enderores.EnderOres"
+		],
+		"client": [
+			"net.cocopup.enderores.EnderOresClient"
 		],
 		"fabric-datagen": [
 			"net.cocopup.enderores.EnderOresDataGenerator"
@@ -34,4 +38,5 @@
 	"suggests": {
 		"another-mod": "*"
 	}
+
 }
